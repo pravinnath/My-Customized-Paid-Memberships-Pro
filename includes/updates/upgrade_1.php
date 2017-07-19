@@ -4,11 +4,11 @@ function pmpro_upgrade_1()
 	/*
 		default options
 	*/
-	$nonmembertext = sprintf( __( 'This content is for !!levels!! members only.<br /><a href="https://www.gurutechy.com/courses/">Register</a>');
+	$nonmembertext = sprintf( __( 'This content is for !!levels!! members only.<br /><a href="https://www.gurutechy.com/courses/">Register</a>'),
 	pmpro_setOption("nonmembertext", $nonmembertext);
 
 	$notloggedintext = sprintf( __( 'This content is for !!levels!! members only.<br /><a href="https://www.gurutechy.com/courses/">Log In</a> <a href="https://www.gurutechy.com/courses/">Register</a>');
-	'?action=register">Register</a>';
+	'?action=register">Register</a>'),
 	pmpro_setOption("notloggedintext", $notloggedintext);
 
 	$rsstext = __( "This content is for !!levels!! members only. Visit the site and log in/register to read.", 'paid-memberships-pro' );

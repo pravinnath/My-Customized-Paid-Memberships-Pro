@@ -11,7 +11,7 @@ function pmpro_login_redirect($redirect_to, $request, $user)
 		if(pmpro_isAdmin($user->ID))
 		{
 			//admins go to dashboard
-			$redirect_to = get_bloginfo("url") . "/wp-admin/";			
+			$redirect_to = "https://www.gurutechy.com/courses/";			
 		}
 		elseif(strpos($redirect_to, "checkout") !== false)
 		{

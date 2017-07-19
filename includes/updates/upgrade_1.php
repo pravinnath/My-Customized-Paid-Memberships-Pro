@@ -4,10 +4,10 @@ function pmpro_upgrade_1()
 	/*
 		default options
 	*/
-	$nonmembertext = sprintf( __( 'This content is for !!levels!! members only.<br /><a href="%s">Register</a>', 'paid-memberships-pro' ), wp_login_url() . "?action=register" );
+	$nonmembertext = sprintf( __( 'This content is for !!levels!! members only.<br /><a href="https://www.gurutechy.com/courses/">Register</a>');
 	pmpro_setOption("nonmembertext", $nonmembertext);
 
-	$notloggedintext = sprintf( __( 'This content is for !!levels!! members only.<br /><a href="%s">Log In</a> <a href="%s">Register</a>', 'paid-memberships-pro' ), wp_login_url(), wp_login_url() . "?action=register" );
+	$notloggedintext = sprintf( __( 'This content is for !!levels!! members only.<br /><a href="https://www.gurutechy.com/courses/">Log In</a> <a href="https://www.gurutechy.com/courses/">Register</a>');
 	'?action=register">Register</a>';
 	pmpro_setOption("notloggedintext", $notloggedintext);
 

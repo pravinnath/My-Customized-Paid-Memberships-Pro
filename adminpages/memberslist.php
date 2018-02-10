@@ -196,7 +196,7 @@
 								<?php echo get_avatar($theuser->ID, 32)?>
 								<strong>
 									<?php
-										$userlink = '<a href="user-edit.php?user_id=' . $theuser->ID . '">' . $theuser->user_login . '</a>';
+										$userlink = $theuser->user_login;
 										$userlink = apply_filters("pmpro_members_list_user_link", $userlink, $theuser);
 										echo $userlink;
 									?>
